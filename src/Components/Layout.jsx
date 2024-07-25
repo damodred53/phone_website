@@ -1,7 +1,8 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+
 import Header from './Header';
 import "../index.css";
+import Products from "./Products";
 
 const Layout = () => {
 
@@ -12,7 +13,7 @@ const Layout = () => {
 
         <div>
             <Header />
-            <Outlet />
+            <Products />
         </div>
     )
 }

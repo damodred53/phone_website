@@ -2,6 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import "../App.css";
 import Poubelle from "../assets/poubelle.svg";
+import Header from "./Header";
 
 const Cart =() => {
 
@@ -31,6 +32,7 @@ const Cart =() => {
     return (
 
         <div>
+            <Header />
             {cartProducts.length > 0 ? cartProducts.map(item =>
                 <div key={item.id} className="cartItem">
 

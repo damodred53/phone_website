@@ -15,7 +15,7 @@ const Header = () => {
     return (
 
         <header id="header">
-            <NavLink to="/products">
+            <NavLink to="/phone_website">
                 <img className="siteLogo logo_fictif" src={Logo} alt="logo fictif"  />
             </NavLink>
 
@@ -25,7 +25,7 @@ const Header = () => {
             </form>
 
             <div className="cartLink">
-                <NavLink to="/products">
+                <NavLink to="/phone_website">
                     <img src={Logo} alt="siteLogo logo fictif" className="logo_fictif" />
                 </NavLink>
                     
