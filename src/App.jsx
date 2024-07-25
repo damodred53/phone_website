@@ -9,9 +9,10 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/phone_website' element={<Layout />}>
-          <Route path='/phone_website/products' element={<Products />}/>
-          <Route path='/phone_website/cart' element={<Cart />}/>
+        <Route >
+          <Route path='/phone_website' element={<Layout />} />
+          <Route path='/products' element={<Products />}/>
+          <Route path='/cart' element={<Cart />}/>
         </Route>
       </Routes>
     </>
